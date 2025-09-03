@@ -1,3 +1,11 @@
+header{
+    display: flex;
+    width: 98%;
+    height: 140px;
+    padding: 10px;
+    border: 10px solid #db11db;
+    background-color: black;
+}
 h1{
     font-size: 50px;
     color: blueviolet;
@@ -13,7 +21,7 @@ p1{
     margin-bottom: 50px;
     margin-left: 30%;
 }
-a{
+.a1{
     font-size: 24px;
     margin-left: 30%;
 }
@@ -27,7 +35,7 @@ li{
 }
 h2{
     font-size: 40px;
-    margin-left: 30%;
+    margin-left: 45%;
     color: red;
 }
 img{
@@ -37,4 +45,21 @@ p2{
     margin-left: 30%;
     color: brown;
     font-size: 50px;
+}
+body{
+    background-color: rgb(240, 139, 139);
+}
+.parent{
+    display: flex;
+    font-size: 50px;
+    color: #db11db;
+    padding-left: 500PX;
+}
+.a2{
+    font-size: 24px;
+    margin-left: 30%;
+}
+.a3{
+    font-size: 24px;
+    margin-left: 30%;
 }
