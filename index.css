@@ -1,3 +1,7 @@
+@import url(/css/call.css);
+@import url(/css/Arseniy.css);
+@import url(/css/Danya.css);
+@import url(/css/variables.css);
 * {
     margin: 0;
     padding: 0;
@@ -5,26 +9,30 @@
 }
 .header{
     display: flex;
-    width: 98%;
+    width: 100%;
     height: 140px;
     padding: 10px;
     border: 10px solid #ff00f2;
     background-color: black;
+    align-items: center;
 }
 h1{
     font-size: 50px;
     color: rgb(2, 255, 192);
-    margin-left: 30%;
+    margin-left: 40%;
+    margin-bottom: 30px;
 }
 p{
     font-size: 30px;
+    margin-left: 25%;
+    color: var(--purple);
     margin-bottom: 30px;
-    margin-left: 30%;
 }
 p1{
     font-size: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-left: 30%;
+    color: var(--purple);
 }
 .a1{
     font-size: 24px;
@@ -43,47 +51,46 @@ h2{
     margin-left: 45%;
     color: red;
 }
-img{
-    margin-left: 30%;
-}
 p2{
     margin-left: 30%;
-    color: brown;
+    color: rgb(13, 178, 219);
     font-size: 50px;
-}
-body{
-    background-color: rgb(240, 139, 139);
-}
-.parent{
-    display: flex;
-    font-size: 50px;
-    color: #db11db;
-    padding-left: 500PX;
+    margin-bottom: 30px;
 }
 .a2{
     font-size: 24px;
     margin-left: 30%;
+    color: var(--blue);
 }
 .a3{
     font-size: 24px;
     margin-left: 30%;
+    color: var(--blue);
 }
-.logo {
-    width: 150px;
-    height: 150px;
+.logo{
+    display: flex;
+    width: 90px;
+    height: 90px;
 }
-.menu {
-    display: inline-block;
-    margin-left: 400px;
-    vertical-align: middle;
-    line-height: 50px;
-    font-size: 25px;
-    
+.links{
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90px;
 }
-.menu__link {
-    display: inline-block;
-    padding: 40px 50px;
+.logo img{
+    display: flex;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    background-color: black;
+    border-radius: 50%;
 }
-.menu__link + .menu__link {
-    margin-left: 20px;
+a{
+    color: var(--blue);
+}
+img{
+    margin-left: 30%;
 }
